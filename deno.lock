@@ -1,0 +1,64 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@hono/swagger-ui": "npm:@hono/swagger-ui@0.3.0_hono@4.4.9",
+      "npm:@hono/zod-openapi": "npm:@hono/zod-openapi@0.14.7_hono@4.4.9_zod@3.23.8"
+    },
+    "npm": {
+      "@asteasolutions/zod-to-openapi@7.1.1_zod@3.23.8": {
+        "integrity": "sha512-lF0d1gAc0lYLO9/BAGivwTwE2Sh9h6CHuDcbk5KnGBfIuAsAkDC+Fdat4dkQY3CS/zUWKHRmFEma0B7X132Ymw==",
+        "dependencies": {
+          "openapi3-ts": "openapi3-ts@4.3.3",
+          "zod": "zod@3.23.8"
+        }
+      },
+      "@hono/swagger-ui@0.3.0_hono@4.4.9": {
+        "integrity": "sha512-2Hp7XYFx5wDJoc6gKJAnV7RA5TWYgYl2G1k5b3BlaF6uxsePgqqCBkxhbJPe3oPu2XRB4Bsm2V7Dp9jq8LI+dg==",
+        "dependencies": {
+          "hono": "hono@4.4.9"
+        }
+      },
+      "@hono/zod-openapi@0.14.7_hono@4.4.9_zod@3.23.8": {
+        "integrity": "sha512-nxpph8z/wlBDX9oMH3UUcuxwzjnEujvFlyUa5a4A9pV4m8bDN4P0Ari0GpfJZ0B8V3zKdHnxqb7vk7wkoAAwdA==",
+        "dependencies": {
+          "@asteasolutions/zod-to-openapi": "@asteasolutions/zod-to-openapi@7.1.1_zod@3.23.8",
+          "@hono/zod-validator": "@hono/zod-validator@0.2.2_hono@4.4.9_zod@3.23.8",
+          "hono": "hono@4.4.9",
+          "zod": "zod@3.23.8"
+        }
+      },
+      "@hono/zod-validator@0.2.2_hono@4.4.9_zod@3.23.8": {
+        "integrity": "sha512-dSDxaPV70Py8wuIU2QNpoVEIOSzSXZ/6/B/h4xA7eOMz7+AarKTSGV8E6QwrdcCbBLkpqfJ4Q2TmBO0eP1tCBQ==",
+        "dependencies": {
+          "hono": "hono@4.4.9",
+          "zod": "zod@3.23.8"
+        }
+      },
+      "hono@4.4.9": {
+        "integrity": "sha512-VW1hnYipHL/XsnSYiCTLJ+Z7iisZYWwSOiKXm9RBV2NKPxNqjfaHqeMFiDl11fK893ofmErvRpX20+FTNjZIjA==",
+        "dependencies": {}
+      },
+      "openapi3-ts@4.3.3": {
+        "integrity": "sha512-LKkzBGJcZ6wdvkKGMoSvpK+0cbN5Xc3XuYkJskO+vjEQWJgs1kgtyUk0pjf8KwPuysv323Er62F5P17XQl96Qg==",
+        "dependencies": {
+          "yaml": "yaml@2.4.5"
+        }
+      },
+      "yaml@2.4.5": {
+        "integrity": "sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==",
+        "dependencies": {}
+      },
+      "zod@3.23.8": {
+        "integrity": "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.4.11"
+    ]
+  }
+}
